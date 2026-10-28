@@ -1,3 +1,6 @@
 # Calculator lab project
 ## How to run it
-Run: python3 calculator.py
+Must have python 3
+Run: ./run.sh
+Sample test: run 6, *, 7. Result should be 42.0
+TO stop testing, press ctrl+c on your keyboard.
