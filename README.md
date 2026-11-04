@@ -2,5 +2,10 @@
 ## How to run it
 Must have python 3
 Run: ./run.sh
-Sample test: run 6, *, 7. Result should be 42.0
-TO stop testing, press ctrl+c on your keyboard.
+
+## How to test it
+Activate virtual environment using
+source /opt/python-venv/sccm-4910/bin/activate
+python3 -m pytest --version
+Run: ./check.sh
+5 tests will be performed. run echo $? and ensure output  is 0
